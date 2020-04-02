@@ -1,0 +1,9 @@
+name: 'Base Merger'
+description: 'Merge base branch into pull request by command'
+author: 'Junmo Kim'
+branding:
+  icon: 'git-merge'
+  color: 'blue'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
